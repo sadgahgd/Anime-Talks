@@ -1,0 +1,99 @@
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+@font-face {
+    font-family: 'People Book';
+    src: url(/fonts/ADELIA.otf);
+}
+
+@font-face {
+    font-family: 'signature';
+    src: url(/fonts/Brush\ Signature.ttf);
+}
+
+@font-face {
+    font-family: 'school';
+    src: url(/fonts/Deuxieme_Rang_Italic.otf);
+}
+
+@font-face {
+    font-family: 'point';
+    src: url(/fonts/Letters\ for\ Learners.ttf);
+}
+
+@font-face {
+    font-family: 'copy  ';
+    src: url(/fonts/Letters\ for\ Learners.ttf);
+}
+
+
+
+
+body { 
+    background: url(/img/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.main1 {
+    font-style: oblique;
+    font-size: 55px;
+    text-align: center;
+    color: rgb(180, 194, 255) ;
+    font-weight: normal;
+    font-family: 'People Book';
+  }
+
+.main2 {
+    font-size: 25px;
+    font-weight: 300;
+    font-style: oblique;
+    text-align: center;
+    color: bisque;
+    font-family: 'signature';
+  }
+
+  
+.main3 {
+    font-style: oblique;
+    text-align: left;
+    color: azure;
+    font-family: 'school';
+    font-size: 27px;
+}
+
+.point {
+    font-style: oblique;
+    color: rgb(0, 255, 187);
+    font-family: point;
+    font-size: 25px;
+}
+
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;    
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+
+  .copy {  
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+    color: rgb(252, 215, 141);
+    font-family: 'copy';
+  }
